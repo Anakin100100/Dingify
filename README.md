@@ -51,14 +51,19 @@ git clone https://github.com/Codehagen/Dingify
 
 1. Install dependencies using pnpm:
 
+if you don't have pnpm installed install it using
+```sh
+npm install -g pnpm@8.15.5
+```
+
 ```sh
 pnpm install
 ```
 
-2. Copy `.env.example` to `.env.local` and update the variables.
+2. Copy `.env.example` to `.env` and update the variables.
 
 ```sh
-cp .env.example .env.local
+cp .env.example .env
 ```
 
 4. Input everything you need for the env.
@@ -105,7 +110,6 @@ pnpm run deploy
 ### Platforms
 
 - [Vercel](https://vercel.com/) – Easily preview & deploy changes with git
-- [PlanetScale](https://planetscale.com/) – A cutting-edge database platform for seamless, scalable data management
 - [Resend](https://resend.com/) – A powerful email framework for streamlined email development
 
 ## Contributing
